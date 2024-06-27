@@ -1,0 +1,23 @@
+{
+  "name": "ui-docs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "typecheck": "tsc --pretty --noEmit",
+    "preview": "next build && next start",
+    "clean": "rimraf .turbo node_modules .next"
+  },
+  "dependencies": {
+    "next": "14.2.4"
+  },
+  "devDependencies": {
+    "@praveenmsp23/ui": "workspace:*",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8"
+  }
+}

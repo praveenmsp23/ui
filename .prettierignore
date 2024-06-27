@@ -1,0 +1,6 @@
+**/*.yaml
+/.coverage
+.next/
+/coverage
+dist/
+**/*/*.mdx
